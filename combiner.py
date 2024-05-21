@@ -2,6 +2,8 @@
 import PyPDF2
 import sys
 
+#irgendwelche Beispieländerungen, um zu gucken, ob das alles funzt 
+
 def combine_pdfs(output_path, *input_paths):
     pdf_writer = PyPDF2.PdfWriter()
     
